@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 header {
   position: absolute;
   width: 100%;
@@ -91,3 +92,98 @@ header .etc li a:hover {
   color: #fff;
 }
 
+=======
+header {
+  position: absolute;
+  width: 100%;
+  z-index: 2;
+  border-bottom: 1px solid #ccc9;
+}
+
+header nav {
+  margin: 0 auto;
+  height: 80px;
+  align-items: center;
+}
+
+header .gnb {
+  
+}
+
+header nav h1 a img {
+
+}
+
+header .gnb {
+  height: 100%;
+}
+
+header .gnb ul {
+  display: flex;
+}
+
+header .gnb ul li {
+  
+}
+
+header .gnb a {
+  padding: 0 40px;
+  height: calc(100% - 2px);
+  display: flex;
+  align-items: center;
+  transition: 0.5s;
+  border-bottom: 5px solid transparent;
+}
+
+header:hover {
+  
+}
+
+header .gnb a:hover {
+  color: #0081c4;
+  border-bottom: 5px solid;
+}
+
+header .gnb .submenu {
+  display: none;
+}
+
+header .gnb:hover .submenu {
+  display: block;
+}
+
+header .gnb li:hover .submenu {
+  
+}
+
+header .etc {
+  
+}
+
+header .etc li {
+  position: relative;
+}
+
+header .etc li:nth-child(2)::before {
+  content: "";
+  width: 5px;
+  height: 5px;
+  display: block;
+  background-color: #ccc;
+  border-radius: 50%;
+  position: absolute;
+  left: -2px;
+  top: calc(50% - 1.5px);
+}
+
+header .etc li a {
+  padding: 0 10px;
+  color: #ccc;
+  transition: 0.3s;
+}
+
+header .etc li a:hover {
+  color: #fff;
+}
+
+>>>>>>> 4fdb1157a4995143b19adff3ae55dc935335766d

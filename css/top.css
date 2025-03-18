@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .top {
     position: fixed;
     right: 20px;
@@ -26,4 +27,34 @@
 
 .sm {
     font-size: 14px;
+=======
+.top {
+    position: fixed;
+    right: 20px;
+    bottom: 40px;
+    text-transform: uppercase;
+    background-color: #999;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 10px;
+    color: #fff;
+    width: 30px;
+    height: 30px;
+}
+
+.top::before {
+    content: "";
+    width: 20px;
+    height: 20px;
+    background-image: url(../img/arrow_22.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.sm {
+    font-size: 14px;
+>>>>>>> 4fdb1157a4995143b19adff3ae55dc935335766d
 }
