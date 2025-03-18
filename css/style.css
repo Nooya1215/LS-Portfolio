@@ -2,6 +2,10 @@
   background-color: #8b4499;
   display: flex;
   align-items: center;
+  background-image: url(../img/section2_bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 #business .wrap {

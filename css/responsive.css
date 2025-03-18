@@ -82,7 +82,133 @@
         display: none;
     }
 
+    #business .p {
+        width: 255px;
+        height: 206;
+    }
+
     #business .flex span:last-child {
         display: block;
+    }
+    
+    #partner {
+        align-items: baseline;
+        padding-top: 70px;
+        box-sizing: border-box;
+    }
+
+    #partner .wrap {
+        gap: 35px;
+    }
+
+    #news .wrap {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: repeat(6, auto);
+        box-sizing: border-box;
+    }
+
+    #news .h2 {
+        grid-column: 1;
+        grid-row: 1;
+    }
+    
+    #news .p {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    #news article {
+
+    }
+
+    #news article:nth-of-type(1) {
+        grid-column: 1 / span 2;
+        grid-row: 3;
+        height: 165px;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    #news article:nth-of-type(2) {
+        grid-column: 1;
+        grid-row: 4;
+        margin-bottom: 0;
+        margin-left: 0;
+    }
+
+    #news article:nth-of-type(3) {
+        grid-column: 2;
+        grid-row: 4;
+    }
+
+    #news article:nth-of-type(n+2) {
+        height: auto;
+    }
+
+    #news article:nth-of-type(n+2) a {
+        gap: 20px;
+    }
+
+    #news article:nth-of-type(4) {
+        grid-column: 1;
+        grid-row: 5;
+    }
+
+    #news article:nth-of-type(5) {
+        grid-column: 2;
+        grid-row: 5;
+    }
+
+    #news article a {
+        padding:  15px 20px;
+    }
+
+    #news div .sns {
+        grid-column: 1 / span 2;
+        grid-row: 6
+    }
+
+    #news div .sns ul {
+        gap: 30px;
+    }
+
+    footer {
+
+    }
+
+    footer .wrap {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    footer .familysite {
+        background-color: #333;
+        height: 65px;
+    }
+
+    footer .familysite h2 {
+        border: none;
+    }
+
+    footer .familysite ul {
+        display: none;
+        order: 2;
+    }
+
+    footer address {
+        order: 3;
+    }
+
+    footer .endmenu {
+        gap: 10px;
+        width: 375px;
+    }
+
+    footer .privacy:nth-child(1) {
+        border: none;
+        font-weight: bold;
     }
 }

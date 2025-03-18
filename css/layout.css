@@ -23,7 +23,7 @@ section {
   gap: 10px;
 }
 
-.icon::before {
+.LSicon::before {
   content: "";
   width: 63px;
   height: 18px;
@@ -34,7 +34,7 @@ section {
   background-repeat: no-repeat;
 }
 
-.icon2::after {
+.LSicon2::after {
   content: "";
   width: 30px;
   height: 26px;
@@ -181,6 +181,14 @@ nav a {
   section {
     height: calc(100vh - 100px);
   }
+
+  .LSicon::before {
+    width: 33px;
+  }
+
+  #news .LSicon::before {
+    filter: invert(100%);
+  }
   
   .wrap {
     padding:  0 35px;
@@ -203,7 +211,7 @@ nav a {
   }
   
   .h5 {
-    font-size: calc(20px * 0.404);
+    font-size: 14px;
   }
   
   .menu {
@@ -219,7 +227,7 @@ nav a {
   }
   
   .p {
-    font-size: calc(18px * 0.404);
+    font-size: 15px;
   }
   
   .sm {
