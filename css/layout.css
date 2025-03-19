@@ -239,6 +239,6 @@ nav a {
   }
   
   .xs {
-    font-size: calc(12px * 0.404);
+    font-size: 10px;
   }
 }

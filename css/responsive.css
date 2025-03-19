@@ -173,8 +173,37 @@
         gap: 30px;
     }
 
+    /* Ver.1 */
+
     footer {
 
+    }
+
+    footer .wrap {
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows: auto;
+        text-align: center;
+    }
+
+    footer address {
+        grid-column: 1 / span 2;
+        grid-row: 1;
+    }
+
+    footer p {
+        grid-column: 1 / span 2;
+        grid-row: 2;
+    }
+
+    footer .endmenu {
+        display: none;
+    }
+
+    /* Ver.2 */
+
+    /* footer {
+        height: 218px;
     }
 
     footer .wrap {
@@ -187,10 +216,17 @@
     footer .familysite {
         background-color: #333;
         height: 65px;
+        align-items: center;
+        width: 100vw;
     }
 
     footer .familysite h2 {
         border: none;
+        flex-direction: row;
+        width: 220px;
+        gap: 15px;
+        font-size: 20px;
+        font-weight: bold;
     }
 
     footer .familysite ul {
@@ -210,5 +246,5 @@
     footer .privacy:nth-child(1) {
         border: none;
         font-weight: bold;
-    }
+    } */
 }

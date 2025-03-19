@@ -7,6 +7,11 @@ footer .wrap {
     grid-template-columns: calc((100% - 1280px) / 2) auto auto calc((100% - 1280px) / 2);
     grid-template-rows: auto 65px 65px;
     width: initial;
+    padding: 20px 0;
+}
+
+footer .familysite {
+    display: none;
 }
 
 footer .familysite {
@@ -74,6 +79,7 @@ footer ul {
 
 footer .endmenu {
     align-items: center;
+    padding: 15px;
 }
 
 footer ul li {
